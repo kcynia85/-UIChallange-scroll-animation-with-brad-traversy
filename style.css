@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+body { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsl(208, 100%, 97%);
+  font-family: 'Brygada 1918', serif;
+}
+
+.content {
+  width: 324px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px;
+  border-radius: 8px;
+  color:hsl(208, 100%, 97%);
+  background-color: hsl(180, 100%, 50%);
+} 
