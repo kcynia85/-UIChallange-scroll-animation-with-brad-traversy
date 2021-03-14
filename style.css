@@ -19,7 +19,7 @@ body {
 }
 
 .content {
-  width: 324px;
+  width: 400px;
   height: 200px;
   display: flex;
   align-items: center;
@@ -28,4 +28,14 @@ body {
   border-radius: 8px;
   color:hsl(208, 100%, 97%);
   background-color: hsl(180, 100%, 50%);
+  transform: translateX(200%);
+  transition: transform 0.4s ease;
 } 
+
+.content:nth-of-type(even) {
+  transform: translateX(-200%);
+}
+
+.content--show {
+  transform: translateX(0);
+}
