@@ -2,8 +2,7 @@
   const contents = document.querySelectorAll('.content');
 
   const checkContents = () => {
-    const triggerBottom = window.innerHeight / 5 * 4
-    
+    const triggerBottom = window.innerHeight 
     contents.forEach(content => {
       const boxTop = content.getBoundingClientRect().top
 
@@ -14,7 +13,8 @@
       }
     })
   }
-  
+
   window.addEventListener('scroll', checkContents)
   checkContents();
+
 }
